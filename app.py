@@ -1,5 +1,5 @@
-# It is necessary to install ChromaDB(pip install chromadb) and Ollama(pip install chromadb)
-# Also, you should run Llama 3.2 via Ollama on your machine before running this script
+# Install ChromaDB(pip install chromadb) and Ollama(pip install ollama)
+# Also, Llama 3.2 should be running on your machine before running this script
 import chromadb
 from ollama import chat
 from ollama import ChatResponse
