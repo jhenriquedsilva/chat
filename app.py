@@ -36,7 +36,7 @@ while True:
             'role': 'user',
             'content': f"""
             {question}\n\n
-            Use somente as informações relevantes do texto abaixo para ajudar na resposta:
+            Use somente as informações relevantes do texto a seguir para ajudar na resposta:\n
             {similar_text_to_enrich_prompt}
     """,
         },
